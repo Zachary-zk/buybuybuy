@@ -1,0 +1,13 @@
+.mmm_container {
+  width: 100%;
+  min-width: 320px;
+  max-width: 750px;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  height: 5000px;
+}
+.mmm_header {
+  height: 1.333333rem;
+  background-color: #ff841d;
+}
