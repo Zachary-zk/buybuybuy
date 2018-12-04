@@ -3,6 +3,7 @@
 	margin:0;
 	font-size:14px;
 	line-height:1.5;
+	box-sizing: border-box;
 }
 ol,
 ul{
@@ -15,6 +16,17 @@ a{
 i{
 	display:inline-block;
 	font-style: normal;
+}
+img{
+	width: 100%;
+	display: block;
+}
+input{
+	outline:none;
+	border: none;
+}
+button{
+	border: none;
 }
 .fl{
 	float:left;
