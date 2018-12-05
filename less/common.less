@@ -1,0 +1,215 @@
+@color:#ff841d;
+@bgColor:#f1f1f1;
+.mmm_container{
+    width: 100%;
+    min-width: 320px;
+    max-width: 750px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: @bgColor;
+    // height: 5000px;
+}
+
+// 头部
+.mmm_header{
+    width: 100%;
+    height: 1.333333rem;
+    background-color: @color;
+    overflow: hidden;
+
+    a{
+        float: left;
+        display: block;
+        width: 4.946667rem;
+        height: .666667rem;
+        margin-top: .333333rem;
+        margin-left: .426667rem;
+        
+        >img{
+            width: 4.946667rem;
+            height: .666667rem;
+        }
+    }
+    
+    >img:last-child{
+        float: right;
+        width: .906667rem;
+        height: .92rem;
+        margin-top: .213333rem;
+        margin-right: .16rem;
+    }
+}
+
+// 搜索
+.mmm_search{
+    height: 1.386667rem;
+    background-color: #fff;
+    line-height: 1.386667rem;
+    margin-bottom: .266667rem;
+    input{
+        width: 7.573333rem;
+        height: .8rem;
+        margin-left: .266667rem;
+        border-radius: .4rem;
+        background-color: @bgColor;
+        padding-left: .48rem;
+        font-size: .24rem;
+
+    }
+    button{
+        margin-left: .2rem;
+        border-radius: .4rem;
+        width: 1.666667rem;
+        height: .8rem;
+        background-color: @color;
+        color:#fff;
+        font-size: .32rem;
+    }
+}
+
+// 底部
+.mmm_footer{
+    .footer_body{
+        padding: .666667rem 0;
+        ul{
+            border-bottom: 1px solid #ccc;
+            border-top: 1px solid #ccc;
+            overflow: hidden;
+            li{
+                width: 33.33%;
+                float: left;
+                text-align: center;
+                height: .88rem;
+                border-right: 1px solid #ccc;
+                background-color: #efefef;
+                &:last-child{
+                    border: none;
+                    img{
+                        display: inline-block;
+                        width: .4rem;
+                        height: .4rem;
+                        transform: translateY(.066667rem);
+                    }
+                }
+                a{
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    line-height: .88rem;
+                    font-size: .32rem;
+                }
+            }
+        }
+        .footer_bottom{
+            margin-top: .48rem;
+            text-align: center;
+            .p1{
+                span{
+                    font-size: .24rem;
+                    &:first-child{
+                        color:red;
+                    }
+                    &:last-child{
+                        color:#ccc;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 超值推荐
+.mmm_recommend{
+    .recommend_body{
+        background-color: #fff;
+        padding-bottom: .266667rem;
+
+        li{
+            border-bottom: 1px solid #ccc;
+            position: relative;
+            padding: .4rem 0;
+            overflow: hidden;
+            .box_1{
+                float: left;
+                width: 3.133333rem;
+                height: 2.666667rem;
+                // padding:0 .133333rem;
+                // box-sizing: border-box;
+                img{
+                    width: 2.8rem;
+                    margin: 0 auto;
+                }
+            }
+            div{
+                float: left;
+                width: 6.666667rem;
+                p:first-child{
+                    
+                    font-size: .4rem;
+                    font-weight: 700;
+                    .meny{
+                        color:@color;
+                        font-size: .4rem;
+                    }
+                }
+                p:last-child{
+                    margin-top: .933333rem;
+                    color:#a39a9e;
+                    font-size: .266667rem;
+                    overflow: hidden;
+                    span:first-child{
+                        float: left;
+                        font-size: .266667rem;
+                    }
+                    span:last-child{
+                        float: right;
+                        font-size: .266667rem;
+                    }
+                }
+            }
+        }
+        .recommend_more{
+            height: .8rem;
+            margin:.266667rem auto;
+            margin-bottom: 0;
+            width: 9.413333rem;
+            border-radius: .066667rem;
+            border: .04rem solid @bgColor;
+            text-align: center;
+            font-size: .32rem;
+            a{
+                line-height: .8rem;
+            }
+        }
+    }
+}
+
+// 头部
+.mmm_head{
+    position: relative;
+    background-color: #ff841d;
+    h3{
+        height: 1.173333rem;
+        line-height: 1.173333rem;
+        text-align: center;
+        font-size: .4rem;
+        color:#fff;
+    }
+    a{
+        z-index: 2;
+        position: absolute;
+        left: .4rem;
+        top: .28rem;
+        width: .373333rem;
+        height: .613333rem;
+        background:url('../images/icon_bar.png') -2.773333rem -.28rem ;
+        background-size: 5.866667rem 3.52rem;
+    }
+    img{
+        position: absolute;
+        top:.146667rem;
+        right: .24rem;
+        width: .906667rem;
+        height: .906667rem;
+    }
+}

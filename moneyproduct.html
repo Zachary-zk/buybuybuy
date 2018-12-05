@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/commonality-class.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/moneyproduct.css">
+    <title>Document</title>
+</head>
+<script src="./lib/flexible/flexible.js"></script>
+
+<body>
+    <div class="mmm_container">
+        <!-- 头部 -->
+        <div class="mmm_head">
+            <a href="#"></a>
+            <h3>国内折扣</h3>
+            <img src="./images/header_app.png" alt="">
+        </div>
+
+        <div class="inlan_center">
+            
+        </div>
+
+        <!-- 底部 -->
+        <div class="mmm_footer">
+            <div class="footer_body">
+                <ul>
+                    <li>
+                        <a href="#">
+                            登陆
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            注册
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="http://www.zuyushop.com/wap/images/top.jpg" width="15" height="15">
+                            返回顶部
+                        </a>
+                    </li>
+                </ul>
+                <div class="footer_bottom">
+                    <p class="p1">
+                        <span>手机APP下载</span>
+                        <span>慢慢买手机版</span>
+                        <span>--掌上比价平台</span>
+                    </p>
+                    <p>m.manmanbuy.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/html" id='center'>
+        <h3>{{ result[0].productName }}</h3>
+            <p class="title">{{result[0].productFrom}}</p>
+            <div class="prodect">
+                <!-- <img src="./images/201610001412282758.jpg" alt=""> -->
+                {{@result[0].productImgSm}}
+                <p>{{ result[0].productInfo }}</p>
+                <p>目前京东商城移动端售价10.9元，不错的凑单品，刚需可入，规格1.28L。</p>
+            </div>
+            <!-- <img src="./images/201610001412282758.jpg" alt=""> -->
+            {{@ result[0].productImgLg }}
+
+            <!-- <ul>
+                <li>
+                    <a href="#">
+                        <span class="fl">背景</span>
+                        <span class="fr">有货</span>
+                    </a>
+                </li>
+            </ul> -->
+            {{@ result[0].productCity }}
+            <!-- <div class="btn"><a href="#">立即购买</a></div>
+
+            <img src="./images/mmbweixin2.png" alt="" class="img">
+
+            <div class="comment">
+                <p>发表评论</p>
+                <textarea name="" id=""  rows="3" value="">
+
+                </textarea>
+                <input type="button" value="发表评论">
+            </div> -->
+            {{@ result[0].productComment }}
+            <!-- <div class="newcomment">
+                <p>最新评论</p>
+                <ul>
+                    <li>
+                        <img src="" alt="">
+                        
+                        <div>
+                            <p>
+                                <span>赶鸭子上架</span>
+                                <span>2016/10/25 14:18:45</span>
+                            </p>
+                            <p>比超市便宜了几块</p>
+                        </div>
+                    </li>
+                </ul>
+            </div> -->
+    </script>
+
+    <script src="./lib/zepto/zepto.min.js"></script>
+    <script src="./lib/artTemplate/template-web.js"></script>
+    <script src="./js/common.js"></script>
+    <script src="./js/moneyproduct.js"></script>
+</body>
+
+</html>

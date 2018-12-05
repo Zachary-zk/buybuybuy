@@ -21,7 +21,8 @@ img{
 	width: 100%;
 	display: block;
 }
-input{
+input,
+textarea{
 	outline:none;
 	border: none;
 }
@@ -73,4 +74,7 @@ button{
 }
 .overflow{
 	overflow:hidden;
+}
+.displayNone{
+	display: none;
 }

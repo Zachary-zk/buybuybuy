@@ -1,0 +1,188 @@
+.mmm_container {
+  width: 100%;
+  min-width: 320px;
+  max-width: 750px;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+.mmm_header {
+  width: 100%;
+  height: 1.333333rem;
+  background-color: #ff841d;
+  overflow: hidden;
+}
+.mmm_header a {
+  float: left;
+  display: block;
+  width: 4.946667rem;
+  height: .666667rem;
+  margin-top: .333333rem;
+  margin-left: .426667rem;
+}
+.mmm_header a > img {
+  width: 4.946667rem;
+  height: .666667rem;
+}
+.mmm_header > img:last-child {
+  float: right;
+  width: .906667rem;
+  height: .92rem;
+  margin-top: .213333rem;
+  margin-right: .16rem;
+}
+.mmm_search {
+  height: 1.386667rem;
+  background-color: #fff;
+  line-height: 1.386667rem;
+  margin-bottom: .266667rem;
+}
+.mmm_search input {
+  width: 7.573333rem;
+  height: .8rem;
+  margin-left: .266667rem;
+  border-radius: .4rem;
+  background-color: #f1f1f1;
+  padding-left: .48rem;
+  font-size: .24rem;
+}
+.mmm_search button {
+  margin-left: .2rem;
+  border-radius: .4rem;
+  width: 1.666667rem;
+  height: .8rem;
+  background-color: #ff841d;
+  color: #fff;
+  font-size: .32rem;
+}
+.mmm_footer .footer_body {
+  padding: .666667rem 0;
+}
+.mmm_footer .footer_body ul {
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  overflow: hidden;
+}
+.mmm_footer .footer_body ul li {
+  width: 33.33%;
+  float: left;
+  text-align: center;
+  height: .88rem;
+  border-right: 1px solid #ccc;
+  background-color: #efefef;
+}
+.mmm_footer .footer_body ul li:last-child {
+  border: none;
+}
+.mmm_footer .footer_body ul li:last-child img {
+  display: inline-block;
+  width: .4rem;
+  height: .4rem;
+  transform: translateY(0.066667rem);
+}
+.mmm_footer .footer_body ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: .88rem;
+  font-size: .32rem;
+}
+.mmm_footer .footer_body .footer_bottom {
+  margin-top: .48rem;
+  text-align: center;
+}
+.mmm_footer .footer_body .footer_bottom .p1 span {
+  font-size: .24rem;
+}
+.mmm_footer .footer_body .footer_bottom .p1 span:first-child {
+  color: red;
+}
+.mmm_footer .footer_body .footer_bottom .p1 span:last-child {
+  color: #ccc;
+}
+.mmm_recommend .recommend_body {
+  background-color: #fff;
+  padding-bottom: .266667rem;
+}
+.mmm_recommend .recommend_body li {
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  padding: .4rem 0;
+  overflow: hidden;
+}
+.mmm_recommend .recommend_body li .box_1 {
+  float: left;
+  width: 3.133333rem;
+  height: 2.666667rem;
+}
+.mmm_recommend .recommend_body li .box_1 img {
+  width: 2.8rem;
+  margin: 0 auto;
+}
+.mmm_recommend .recommend_body li div {
+  float: left;
+  width: 6.666667rem;
+}
+.mmm_recommend .recommend_body li div p:first-child {
+  font-size: .4rem;
+  font-weight: 700;
+}
+.mmm_recommend .recommend_body li div p:first-child .meny {
+  color: #ff841d;
+  font-size: .4rem;
+}
+.mmm_recommend .recommend_body li div p:last-child {
+  margin-top: .933333rem;
+  color: #a39a9e;
+  font-size: .266667rem;
+  overflow: hidden;
+}
+.mmm_recommend .recommend_body li div p:last-child span:first-child {
+  float: left;
+  font-size: .266667rem;
+}
+.mmm_recommend .recommend_body li div p:last-child span:last-child {
+  float: right;
+  font-size: .266667rem;
+}
+.mmm_recommend .recommend_body .recommend_more {
+  height: .8rem;
+  margin: .266667rem auto;
+  margin-bottom: 0;
+  width: 9.413333rem;
+  border-radius: .066667rem;
+  border: 0.04rem solid #f1f1f1;
+  text-align: center;
+  font-size: .32rem;
+}
+.mmm_recommend .recommend_body .recommend_more a {
+  line-height: .8rem;
+}
+.mmm_head {
+  position: relative;
+  background-color: #ff841d;
+}
+.mmm_head h3 {
+  height: 1.173333rem;
+  line-height: 1.173333rem;
+  text-align: center;
+  font-size: .4rem;
+  color: #fff;
+}
+.mmm_head a {
+  z-index: 2;
+  position: absolute;
+  left: .4rem;
+  top: .28rem;
+  width: .373333rem;
+  height: .613333rem;
+  background: url('../images/icon_bar.png') -2.773333rem -0.28rem;
+  background-size: 5.866667rem 3.52rem;
+}
+.mmm_head img {
+  position: absolute;
+  top: .146667rem;
+  right: .24rem;
+  width: .906667rem;
+  height: .906667rem;
+}

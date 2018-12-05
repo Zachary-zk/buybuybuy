@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/commonality-class.css">
+    <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/index.css">
     <title>Document</title>
 </head>
@@ -15,18 +16,16 @@
     <div class="mmm_container">
         <!-- 头部 -->
         <div class="mmm_header">
-            <img src="./images/header_logo.png" alt="">
+            <a href="./index.html">
+                <img src="./images/header_logo.png" alt="">
+            </a>
             <img src="./images/header_app.png" alt="">
         </div>
-        <!-- 搜索 -->
-        <div class="mmm_search">
-            <input type="text" placeholder="请输入你相比价的商品">
-            <button>搜索</button>
-        </div>
+
         <!-- 导航 -->
         <div class="mmm_nav">
             <ul class="clearfix">
-                
+
             </ul>
         </div>
         <!-- 超值折扣推荐 -->
@@ -37,11 +36,11 @@
             </div>
             <div class="recommend_body">
                 <ul>
-                    
+
                 </ul>
 
                 <div class="recommend_more">
-                    <a href="#">更多优惠信息》</a>
+                    <a href="./moneyctrl.html">更多优惠信息》</a>
                 </div>
             </div>
         </div>
@@ -114,18 +113,20 @@
     <script type="text/html" id="recommend">
         {{ each result v i }} 
             <li>
-                <div class="box_1">{{@v.productImgLg }}</div>
-                <div>
-                    <p>
-                        {{v.productName }}
-                        <span class="meny">{{v.productPinkage }}</span>
-                    </p>
-
-                    <p>
-                        <span>{{v.productFrom}} | {{v.productTime}}</span>
-                        <span>{{v.productComCount}}</span>
-                    </p>
-                </div>
+                <a href="moneyproduct.html?productId={{v.productId}}">
+                    <div class="box_1">{{@v.productImg2 }}</div>
+                    <div>
+                        <p>
+                            {{v.productName }}
+                            <span class="meny">{{v.productPinkage }}</span>
+                        </p>
+    
+                        <p>
+                            <span>{{v.productFrom}} | {{v.productTime}}</span>
+                            <span>{{v.productComCount}}</span>
+                        </p>
+                    </div>
+                </a>
             </li>
         {{ /each }}
     </script>
