@@ -1,0 +1,97 @@
+.gsproduct_head {
+  background-color: #fff;
+  border-bottom: 1px solid #dadada;
+  position: relative;
+}
+.gsproduct_head .right_box {
+  width: 1.2rem;
+  height: .986667rem;
+  float: right;
+  border-left: 1px solid #dadada;
+}
+.gsproduct_head .left_list {
+  overflow: hidden;
+}
+.gsproduct_head .left_list .li {
+  width: 33.33%;
+  height: .986667rem;
+  float: left;
+  line-height: .986667rem;
+  text-align: center;
+  font-size: .32rem;
+}
+.gsproduct_head .left_list .li span {
+  font-size: .32rem;
+}
+.gsproduct_head .u1,
+.gsproduct_head .u2 {
+  display: none;
+  background-color: #fff;
+  width: 100%;
+  position: absolute;
+  top: .986667rem;
+}
+.gsproduct_head .u1 li,
+.gsproduct_head .u2 li {
+  border-top: 1px solid #dadada;
+  height: .986667rem;
+  line-height: .986667rem;
+  font-size: .32rem;
+}
+.gsproduct_head .u1 li:last-child,
+.gsproduct_head .u2 li:last-child {
+  border-bottom: 1px solid #dadada;
+}
+.gsproduct_body {
+  padding: .32rem .213333rem;
+}
+.gsproduct_body ul {
+  overflow: hidden;
+}
+.gsproduct_body li {
+  background-color: #fff;
+  float: left;
+  width: 49%;
+  margin-right: 1%;
+  margin-bottom: .2rem;
+}
+.gsproduct_body li:nth-child(2n) {
+  margin-right: none;
+}
+.gsproduct_body li a {
+  display: block;
+}
+.gsproduct_body li a .img {
+  height: 3.306667rem;
+  width: 100%;
+}
+.gsproduct_body li a .img img {
+  margin: 0 auto;
+  height: 3.306667rem;
+}
+.gsproduct_body li a p {
+  font-size: .24rem;
+  height: .466667rem;
+  line-height: .466667rem;
+  overflow: hidden;
+}
+.gsproduct_body li a .gomai {
+  overflow: hidden;
+  padding-bottom: .133333rem;
+}
+.gsproduct_body li a .gomai span {
+  color: #f8601d;
+  font-size: .266667rem;
+  line-height: .733333rem;
+}
+.gsproduct_body li a .gomai button {
+  text-align: center;
+  width: 1.653333rem;
+  height: .733333rem;
+  line-height: .733333rem;
+  background-color: #f8601d;
+  border-radius: .066667rem;
+  color: #fff;
+  font-size: .32rem;
+  margin-right: .133333rem;
+}

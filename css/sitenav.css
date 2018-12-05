@@ -1,0 +1,31 @@
+.siten_center {
+  background-color: #fff;
+  padding: .266667rem;
+}
+.siten_center ul {
+  width: 6.52rem;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.siten_center ul li {
+  float: left;
+  padding: .266667rem;
+  border: 1px solid #bfbfbf;
+  background-color: #f4f4f4;
+  margin-right: .2rem;
+  margin-bottom: .133333rem;
+}
+.siten_center ul li a {
+  display: block;
+  overflow: hidden;
+}
+.siten_center ul li a img {
+  width: .4rem;
+  height: .4rem;
+  margin-right: .16rem;
+  float: left;
+}
+.siten_center ul li a span {
+  font-size: .24rem;
+  float: left;
+}

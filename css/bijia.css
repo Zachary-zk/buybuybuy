@@ -1,0 +1,168 @@
+.mmm_search {
+  margin-bottom: 0;
+}
+.brandTitle_nav {
+  height: .933333rem;
+  position: relative;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#ebebeb));
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ebebeb;
+  padding-left: .2rem;
+  line-height: .933333rem;
+  font-size: .266667rem;
+}
+.brandTitle_nav a {
+  font-size: 0.266667rem;
+}
+.brandTitle_nav button {
+  position: absolute;
+  right: .2rem;
+  top: .066667rem;
+  width: 1.6rem;
+  height: .8rem;
+  line-height: .8rem;
+  border-radius: .066667rem;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#d7d7d7), to(#f5f5f5));
+}
+.box {
+  padding: .533333rem .6rem;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+}
+.box p {
+  text-align: center;
+  font-size: .32rem;
+}
+.box .img {
+  width: 4.4rem;
+  margin-bottom: 1.466667rem;
+  margin: 0 auto;
+}
+.box .img img {
+  margin: 0 auto;
+  width: 100%;
+}
+.box .img1 {
+  width: 1.04rem;
+  height: 1.053333rem;
+  position: absolute;
+  right: .6rem;
+  bottom: .533333rem;
+}
+.stree ul {
+  overflow: hidden;
+  border-top: 1px solid #c04000;
+  border-bottom: 1px solid #c04000;
+}
+.stree li {
+  width: 33.33%;
+  float: left;
+  height: .88rem;
+  text-align: center;
+  line-height: .88rem;
+  border-right: 1px solid #c04000;
+  background-color: #ffc831;
+}
+.stree li:last-child {
+  border-right: none;
+}
+.stree li:first-child {
+  background-color: #ff9b18;
+}
+.stree li a {
+  color: #fff;
+  font-size: .32rem;
+}
+.input {
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+}
+tbody tr {
+  height: 1.2rem;
+  line-height: 1.2rem;
+}
+tbody tr:nth-child(2) {
+  height: 0;
+}
+tbody .p_pic img {
+  margin-top: .333333rem;
+  display: inline-block;
+  width: .4rem;
+  height: .4rem;
+}
+tbody td {
+  font-size: .24rem;
+  text-align: right;
+}
+tbody td a {
+  font-size: .24rem;
+}
+.p {
+  background-color: #fff;
+  color: #888;
+  padding: .133333rem;
+}
+.good {
+  padding-left: .266667rem;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ebebeb;
+  font-size: .266667rem;
+  font-weight: 700;
+  text-align: center;
+}
+.brand_Evaluation {
+  background-color: #fff;
+}
+.brand_Evaluation li {
+  border-bottom: 1px solid #ccc;
+  padding: .333333rem .4rem;
+}
+.brand_Evaluation li a {
+  display: block;
+}
+.brand_Evaluation li a .box_t {
+  overflow: hidden;
+}
+.brand_Evaluation li a > p {
+  overflow: hidden;
+  font-size: .266667rem;
+  color: #999;
+}
+.brand_Evaluation li a .boxs {
+  overflow: hidden;
+}
+.brand_Evaluation li a .boxs span:nth-child(2) {
+  color: #4f6900;
+  font-size: .213333rem;
+}
+.brand_Evaluation li a .boxs i {
+  font-size: .24rem;
+  color: #ff9314;
+}
+.brand_Evaluation li a .boxs span:nth-child(1) {
+  float: right;
+  font-size: .213333rem;
+  color: #999999;
+}
+.brand_Evaluation li a .boxs p {
+  font-size: .213333rem;
+}
+.brand_Evaluation li a .boxs .sm {
+  text-align: right;
+  font-size: .186667rem;
+  color: #999999;
+}
+.chakan {
+  padding: .466667rem .2rem;
+  background-color: #fff;
+}
+.chakan p {
+  background-color: #d4d4d4;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#f1f1f1), to(#d4d4d4));
+  height: .8rem;
+  line-height: .8rem;
+  text-align: center;
+  font-size: .24rem;
+  border-radius: .066667rem;
+}

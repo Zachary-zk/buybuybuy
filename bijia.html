@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/commonality-class.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/bijia.css">
+    <title>Document</title>
+</head>
+<script src="./lib/flexible/flexible.js"></script>
+
+<body>
+    <div class="mmm_container">
+        <!-- 头部 -->
+        <div class="mmm_header">
+            <a href="index.html">
+                <img src="./images/header_logo.png" alt="">
+            </a>
+            <img src="./images/header_app.png" alt="">
+        </div>
+        <!-- 搜索 -->
+        <div class="mmm_search">
+            <input type="text" placeholder="请输入你相比价的商品">
+            <button>搜索</button>
+        </div>
+
+        <div class="brandTitle_nav">
+            <a href="index.html">首页</a>
+            >
+            <a href="brandTitle.html">电视</a>
+            >
+            乐视TV(Letv) >
+            <button>筛选</button>
+        </div>
+
+        <div class="bijia_center">
+
+        </div>
+        <div class="brand_Evaluation">
+            <ul>
+
+            </ul>
+        </div>
+
+        <div class="chakan">
+            <p>查看更多评价</p>
+        </div>
+
+        <!-- 底部 -->
+        <div class="mmm_footer">
+            <div class="footer_body">
+                <ul>
+                    <li>
+                        <a href="#">
+                            登陆
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            注册
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="http://www.zuyushop.com/wap/images/top.jpg" width="15" height="15">
+                            返回顶部
+                        </a>
+                    </li>
+                </ul>
+                <div class="footer_bottom">
+                    <p class="p1">
+                        <span>手机APP下载</span>
+                        <span>慢慢买手机版</span>
+                        <span>--掌上比价平台</span>
+                    </p>
+                    <p>m.manmanbuy.com</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script type="text/html" id="app1">
+        {{ each result v i }}
+            <li>
+                <a href="#">
+                    <!-- <div class="box_t">
+                        <p>neritic腾图</p>
+                    </div> -->
+
+
+                    <div class="boxs">
+                        <div class="box_head">
+                            <span>{{v.comTime}}</span>
+                            <span>{{v.comName}}</span>
+                            <i>★★★★★</i>
+                            <p class="sm">{{v.comFrom}}</p>
+                            <p>{{v.comContent}}</p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+        {{ /each }}
+    </script>
+
+    <script type="text/html" id="app">
+        <div class="box">
+            <p>{{ result[0].productName }}</p>
+            <div class="img">
+                {{@result[0].productImg}}
+            </div>
+            <img src="http://www.zuyushop.com/wap/images/sc.jpg" alt="" class="img1">
+        </div>
+        <div class="stree">
+            <ul>
+                <li>
+                    <a href="#">
+                        比价购买
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        产品参数
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        评价（2322）
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="input">
+            {{@result[0].bjShop}}
+        </div>
+
+        <div class="p">* 实际价格以各网站列出的实时售价为准，我们提供的价格可能有数小时至数日的延迟。</div>
+        <div class="good">
+            网友评论
+        </div>
+
+        <div class="pinglun"></div>
+    </script>
+
+    <script src="./lib/zepto/zepto.min.js"></script>
+    <script src="./lib/artTemplate/template-web.js"></script>
+    <script src="./js/common.js"></script>
+    <script src="./js/bijia.js"></script>
+</body>
+
+</html>
