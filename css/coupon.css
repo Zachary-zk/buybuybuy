@@ -1,0 +1,30 @@
+.mmm_head {
+  background-color: #f4483e;
+}
+.coupon {
+  overflow: hidden;
+  background-color: #fff;
+}
+.coupon li {
+  float: left;
+  width: 3.093333rem;
+  margin-right: .186667rem;
+  margin-top: .15rem ;
+}
+.coupon li:nth-child(3n+1) {
+  margin-left: .15rem;
+}
+.coupon li a {
+  display: block;
+  border: 1px solid #ccc;
+  height: 1.946667rem;
+  padding-top: .186667rem;
+}
+.coupon li a img {
+  width: 1.333333rem;
+  margin: 0 auto;
+}
+.coupon li a p {
+  text-align: center;
+  font-size: .213333rem;
+}

@@ -1,0 +1,35 @@
+.inland_center {
+  background-color: #fff;
+}
+.inland_center li {
+  width: 50%;
+  height: 7.066667rem;
+  float: left;
+  padding: .266667rem;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.inland_center li:nth-child(2n) {
+  border-right: none;
+}
+.inland_center li div {
+  width: 4.213333rem;
+  height: 4.16rem;
+  margin: 0 auto .266667rem;
+}
+.inland_center li div img {
+  width: 100%;
+  margin: 0 auto;
+}
+.inland_center li strong {
+  font-size: 0.32rem;
+}
+.inland_center li p {
+  font-size: .293333rem;
+  color: #ff6c00;
+  margin: .133333rem 0;
+}
+.inland_center li span {
+  font-size: .24rem;
+  color: #ccc;
+}

@@ -1,0 +1,43 @@
+.mmm_head {
+  background-color: #f4483e;
+}
+.couponproduct_center {
+  background-color: #fff;
+}
+.couponproduct_center .title {
+  text-align: center;
+  color: #999;
+  height: .933333rem;
+  line-height: .933333rem;
+  font-size: .186667rem;
+}
+.couponproduct_center ul li {
+  padding: .266667rem;
+  border-bottom: 1px solid #e7e7e7;
+  height: 3.173333rem;
+}
+.couponproduct_center ul li a {
+  display: block;
+}
+.couponproduct_center ul li a .img {
+  float: left;
+  width: 2.693333rem;
+  height: 2.133333rem;
+  margin-right: .266667rem;
+}
+.couponproduct_center ul li a .right {
+  overflow: hidden;
+  position: relative;
+}
+.couponproduct_center ul li a .right p:nth-child(1) {
+  font-size: .213333rem;
+}
+.couponproduct_center ul li a .right strong {
+  display: block;
+  font-size: .186667rem;
+  margin-bottom: .533333rem;
+}
+.couponproduct_center ul li a .right p:nth-child(3) {
+  font-size: 14px;
+  color: #EE7700;
+}

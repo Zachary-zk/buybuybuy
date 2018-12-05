@@ -1,0 +1,130 @@
+.inlan_center {
+  background-color: #fff;
+  padding-left: .213333rem;
+  padding-right: .213333rem;
+  padding-top: .426667rem;
+}
+.inlan_center h3 {
+  font-size: .4rem;
+}
+.inlan_center .maney {
+  color: #ff9000;
+  font-weight: 700;
+  font-size: .266667rem;
+  margin-top: .146667rem;
+}
+.inlan_center .title {
+  font-size: .266667rem;
+  color: #ccc;
+  margin-top: .246667rem;
+  margin-bottom: .346667rem;
+}
+.inlan_center .prodect {
+  overflow: hidden;
+}
+.inlan_center .prodect p {
+  font-size: .32rem;
+  overflow: hidden;
+}
+.inlan_center .prodect img {
+  width: 3.066667rem;
+  height: 2.693333rem;
+}
+.inlan_center .prodect img:first-child {
+  float: right;
+}
+.inlan_center ul {
+  margin-top: .6rem;
+  margin-bottom: .533333rem;
+}
+.inlan_center ul li {
+  width: 3.6rem;
+  overflow: hidden;
+  padding: 0 .266667rem;
+  margin: 0 auto;
+  border-bottom: 1px dashed #ccc;
+}
+.inlan_center ul li strong {
+  float: right;
+}
+.inlan_center .btn {
+  margin-top: .133333rem;
+  height: .8rem;
+  background-color: #ff9000;
+  border-radius: .066667rem;
+}
+.inlan_center .btn a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: .8rem;
+  text-align: center;
+  color: #fff;
+  font-size: 0.266667rem;
+}
+.inlan_center .tit {
+  margin: 0.24rem 0;
+  font-size: .24rem;
+  font-size: .293333rem;
+}
+.inlan_center #newcomment {
+  font-size: .293333rem;
+  margin-top: .346667rem;
+  margin: 0.24rem 0;
+}
+.inlan_center .reply textarea {
+  width: 100%;
+  height: 1.866667rem;
+  resize: none;
+  border: 1px solid #ccc;
+}
+.inlan_center .reply .ctrl {
+  overflow: hidden;
+  margin-top: -5px;
+  border: 1px solid #ccc;
+  background-color: #fbfbfb;
+  border-top: none;
+}
+.inlan_center .reply .ctrl input {
+  width: 2.64rem;
+  height: 1.066667rem;
+  font-size: .32rem;
+  color: #fff;
+  background-color: #ff9000;
+  float: right;
+}
+.inlan_center .list .ui-border-b {
+  padding-bottom: .24rem;
+  padding-top: .24rem;
+  width: 100%;
+  overflow: hidden;
+}
+.inlan_center .list .ui-border-b .userimg {
+  float: left;
+}
+.inlan_center .list .ui-border-b img {
+  width: 1.133333rem;
+  height: 1.133333rem;
+  border-radius: 50%;
+  margin-left: .266667rem;
+  margin-right: .266667rem;
+}
+.inlan_center .list .ui-border-b .con {
+  overflow: hidden;
+}
+.inlan_center .list .ui-border-b .con .name {
+  overflow: hidden;
+  color: #5997c0;
+}
+.inlan_center .list .ui-border-b .con .name .username {
+  float: left;
+  font-size: .24rem;
+}
+.inlan_center .list .ui-border-b .con .name .time {
+  float: right;
+  font-size: .24rem;
+}
+.inlan_center .list .ui-border-b .con .content {
+  margin-top: .266667rem;
+  font-size: 0.266667rem;
+}

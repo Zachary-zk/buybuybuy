@@ -1,0 +1,118 @@
+@bgColor:#f4483e;
+.mmm_head{
+    background-color: @bgColor;
+}
+.bacai_nav{
+    background-color: #fff;
+    overflow: hidden;
+    border-bottom: 3px solid #ccc;
+    .baicai_right{
+        width: .933333rem;
+        height: .933333rem;
+        background-color: #ccc;
+        float: right;
+    }
+    .baicai_left{
+        overflow: hidden;
+        
+        ul{
+            overflow: hidden;
+            width: 230%;
+        }
+        li{
+            float: left;
+            width: 1.4rem;
+            height: .933333rem;
+            line-height: .933333rem;
+            text-align: center;
+            a{
+                display: inline-block;
+                height: 100%;
+                line-height: .933333rem;
+                font-size: .24rem;
+                &.active{
+                    border-bottom: 2px solid @bgColor;
+                }
+            }
+        }
+    }
+}
+.baicai_center{
+    background-color: #fff;
+    padding-bottom: .4rem;
+    ul{
+        li{
+            padding:.24rem .16rem;
+            height: 3.453333rem;
+            margin: .24rem 0;
+            a{
+                display: block;
+                overflow: hidden;
+                // float: left; 
+                .img{
+                    float: left;
+                    margin-right: .16rem;
+                    width: 3.453333rem;
+                    height: 3.453333rem;
+                    border: 1px solid #ccc;
+                }
+            }
+            .shopping{
+                overflow: hidden;
+                
+                p{
+                    &:nth-child(1){
+                        font-size: .266667rem
+                    }
+                    &:nth-child(2){
+                        color:@bgColor;
+                        margin: .333333rem 0;
+                        font-size: .186667rem;
+                        strong{
+                            font-size: .293333rem;
+                        }
+                        del{
+                            color:#ccc;
+                        }
+                    }
+                    &:nth-child(3){
+                        i{
+                            display: inline-block;
+                            width: 2.133333rem;
+                            height: .4rem;
+                            border: 1px solid @bgColor;
+                            border-radius: .2rem;
+                            text-align: center;
+                            color:#fff;
+                            background-color: pink;
+                            line-height:.4rem;
+                            font-weight: 700;
+                            font-size: .24rem;
+                        }
+                        span{
+                            color:@bgColor;
+                            font-size: .213333rem;
+                            margin-left: .133333rem;
+                        }
+                    }
+                }
+                .order{
+                    width: 100%;
+                    overflow: hidden;
+                    margin-top:.533333rem;
+                    .fl{
+                        display: inline-block;
+                        border: 1px dashed @bgColor;
+                        padding: .066667rem;
+                    }
+                    .fr{
+                        display: inline-block;
+                        padding: .066667rem;
+                        background-color: @bgColor;
+                        border-radius: .04rem;
+                    }
+                }
+            }
+        }
+    }
+}

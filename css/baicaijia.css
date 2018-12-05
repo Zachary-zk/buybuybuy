@@ -1,0 +1,108 @@
+.mmm_head {
+  background-color: #f4483e;
+}
+.bacai_nav {
+  background-color: #fff;
+  overflow: hidden;
+  border-bottom: 3px solid #ccc;
+}
+.bacai_nav .baicai_right {
+  width: .933333rem;
+  height: .933333rem;
+  background-color: #ccc;
+  float: right;
+}
+.bacai_nav .baicai_left {
+  overflow: hidden;
+}
+.bacai_nav .baicai_left ul {
+  overflow: hidden;
+  width: 230%;
+}
+.bacai_nav .baicai_left li {
+  float: left;
+  width: 1.4rem;
+  height: .933333rem;
+  line-height: .933333rem;
+  text-align: center;
+}
+.bacai_nav .baicai_left li a {
+  display: inline-block;
+  height: 100%;
+  line-height: .933333rem;
+  font-size: .24rem;
+}
+.bacai_nav .baicai_left li a.active {
+  border-bottom: 2px solid #f4483e;
+}
+.baicai_center {
+  background-color: #fff;
+  padding-bottom: .4rem;
+}
+.baicai_center ul li {
+  padding: .24rem .16rem;
+  height: 3.453333rem;
+  margin: .24rem 0;
+}
+.baicai_center ul li a {
+  display: block;
+  overflow: hidden;
+}
+.baicai_center ul li a .img {
+  float: left;
+  margin-right: .16rem;
+  width: 3.453333rem;
+  height: 3.453333rem;
+  border: 1px solid #ccc;
+}
+.baicai_center ul li .shopping {
+  overflow: hidden;
+}
+.baicai_center ul li .shopping p:nth-child(1) {
+  font-size: 0.266667rem;
+}
+.baicai_center ul li .shopping p:nth-child(2) {
+  color: #f4483e;
+  margin: .333333rem 0;
+  font-size: .186667rem;
+}
+.baicai_center ul li .shopping p:nth-child(2) strong {
+  font-size: .293333rem;
+}
+.baicai_center ul li .shopping p:nth-child(2) del {
+  color: #ccc;
+}
+.baicai_center ul li .shopping p:nth-child(3) i {
+  display: inline-block;
+  width: 2.133333rem;
+  height: .4rem;
+  border: 1px solid #f4483e;
+  border-radius: .2rem;
+  text-align: center;
+  color: #fff;
+  background-color: pink;
+  line-height: .4rem;
+  font-weight: 700;
+  font-size: .24rem;
+}
+.baicai_center ul li .shopping p:nth-child(3) span {
+  color: #f4483e;
+  font-size: .213333rem;
+  margin-left: .133333rem;
+}
+.baicai_center ul li .shopping .order {
+  width: 100%;
+  overflow: hidden;
+  margin-top: .533333rem;
+}
+.baicai_center ul li .shopping .order .fl {
+  display: inline-block;
+  border: 1px dashed #f4483e;
+  padding: .066667rem;
+}
+.baicai_center ul li .shopping .order .fr {
+  display: inline-block;
+  padding: .066667rem;
+  background-color: #f4483e;
+  border-radius: .04rem;
+}
