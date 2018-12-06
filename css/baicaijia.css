@@ -10,6 +10,7 @@
   width: .933333rem;
   height: .933333rem;
   background-color: #ccc;
+  background-size: 100%;
   float: right;
 }
 .bacai_nav .baicai_left {
@@ -93,7 +94,7 @@
 .baicai_center ul li .shopping .order {
   width: 100%;
   overflow: hidden;
-  margin-top: .533333rem;
+  margin-top: .333333rem;
 }
 .baicai_center ul li .shopping .order .fl {
   display: inline-block;

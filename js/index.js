@@ -1,26 +1,14 @@
-$(function(){
-    $.ajax({
-        type: "get",
-        url: "http://127.0.0.1:9090/api/getindexmenu",
-        dataType: "json",
-        success: function (response) {
-            console.log(response);
-            $('.mmm_nav ul').html( template('menuapi1',response) )
-        }
-    });
+$(function () {
 
-    $.ajax({
-        type: "get",
-        url: "http://127.0.0.1:9090/api/getmoneyctrl",
-        dataType: "json",
-        success: function (response) {
-            console.log(response);
-            $('.recommend_body ul').html( template('recommend',response) )
-        }
-    });
+    ajax('http://127.0.0.1:9090/api/getindexmenu', response => {
+        $('.mmm_nav ul').html(template('menuapi1', response))
+    })
 
-    $('.mmm_nav ul').on('click','.geng',function(){
-        // console.log($('.mmm_nav ul li').find('.hide'));
+    ajax('http://127.0.0.1:9090/api/getmoneyctrl', response => {
+        $('.recommend_body ul').html(template('recommend', response))
+    })
+
+    $('.mmm_nav ul').on('click', '.geng', function () {
         $('.mmm_nav ul').find('.hide').toggle()
     })
 

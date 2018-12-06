@@ -38,7 +38,7 @@
 .brand_details li a .img2 {
   float: left;
   margin-right: .266667rem;
-  height: 2.426667rem;
+  width: 2.666667rem;
 }
 .brand_details li a .img2 img {
   display: inline-block;
@@ -75,11 +75,13 @@
   padding: .4rem .56rem .4rem .56rem;
   overflow: hidden;
   position: relative;
+  background-color: #fff;
 }
 .list button {
   width: 2.16rem;
   height: .88rem;
   border-radius: .066667rem;
+  font-size: .24rem;
 }
 .list select {
   position: absolute;
@@ -88,4 +90,7 @@
   width: 2.4rem;
   height: .88rem;
   transform: translate(-50%, -50%);
+  font-size: .24rem;
+  text-indent: 2em;
+  border-radius: .066667rem;
 }

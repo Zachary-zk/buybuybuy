@@ -85,13 +85,14 @@
         <!-- 主体小模板 -->
         <script type="text/html" id='small'>
             {{ each result v i}}
-                <li><a href="#">{{@v.category}}</a></li>
+                <li><a href="productlist.html?categoryid={{v.titleId}}">{{@v.category}}</a></li>
             {{ /each}}
         </script>
     </div>
 
     <script src="./lib/zepto/zepto.min.js"></script>
     <script src="./lib/artTemplate/template-web.js"></script>
+    <script src="./js/common.js"></script>
     <script src="./js/category.js"></script>
 </body>
 
